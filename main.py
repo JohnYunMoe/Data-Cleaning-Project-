@@ -5,7 +5,7 @@ import pandas as pd
 import time
 import random
 
-MOVIE_API_KEY = "2BQV7Gygv1yOkxuvOsMn8nnZ2KSn3XB34kPQi6FQ"
+MOVIE_API_KEY = "API_KEY"
 
 def get_movies():
     url = f'https://api.watchmode.com/v1/list-titles/?apiKey={MOVIE_API_KEY}&source_ids=203,57'
